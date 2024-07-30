@@ -1,0 +1,25 @@
+{
+  "name": "techforb-node",
+  "version": "1.0.0",
+  "description": "Backend para el challenge de Techforb",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "jest"
+  },
+  "author": "Leonel Martinez",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-oauth2-jwt-bearer": "^1.6.0",
+    "jsonwebtoken": "^9.0.2",
+    "jwt-decode": "^4.0.0",
+    "mysql2": "^3.11.0",
+    "sequelize": "^6.37.3"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.4"
+  }
+}
